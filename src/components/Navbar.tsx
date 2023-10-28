@@ -1,6 +1,5 @@
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import MusicNoteSharp from '@mui/icons-material/MusicNoteSharp';
 import ButtonBase from '@mui/material/ButtonBase';
 import CarRental from '@mui/icons-material/CarRental';
 import { useRouter } from 'next/router';

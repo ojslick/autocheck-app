@@ -1,6 +1,5 @@
 import { styled } from '@mui/material/styles';
 import MuiTypography from '@mui/material/Typography';
-import { TypographyProps as MuiTypographyProps } from '@mui/material/Typography';
 
 type TypographyVariant = {
     fontStyle: 'normal' | 'italic';

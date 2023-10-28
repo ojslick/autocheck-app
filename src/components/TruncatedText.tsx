@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import Tooltip from '@mui/material/Tooltip';
 import { useEffect, useRef, useState } from 'react';
 import { Typography } from './Typography';

@@ -1,5 +1,3 @@
-import { QueryFunction } from 'react-query';
-
 const BASE_URL = 'https://api.staging.myautochek.com';
 
 interface Params {

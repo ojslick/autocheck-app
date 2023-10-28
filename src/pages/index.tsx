@@ -1,14 +1,13 @@
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { ChangeEvent, use, useEffect, useState } from 'react';
+import { ChangeEvent, useEffect, useState } from 'react';
 import isEmpty from 'lodash/isEmpty';
 import Pagination from '@mui/material/Pagination';
-import { toast } from 'react-toastify';
 import { GetServerSidePropsContext } from 'next';
 import { useRouter } from 'next/router';
 import { getCarsApi, getPopularMakesApi } from '../services';
-import { Avatar, Button, Chip } from '@mui/material';
+import { Avatar, Chip } from '@mui/material';
 import { CarCard } from '../components/CarCard';
 import { Car, CarMake } from '../types';
 import { useLoader } from '../loaderContext';

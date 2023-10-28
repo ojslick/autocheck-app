@@ -1,7 +1,7 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { useRouter } from 'next/router';
 import { getCarsApi, getPopularMakesApi } from '../services';
-import Page, { getServerSideProps } from '.';
+import Page, { getServerSideProps } from '../pages/index';
 import { carList, popularCarMakes } from '../fixtures';
 import { GetServerSidePropsContext } from 'next';
 
