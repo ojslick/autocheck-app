@@ -23,8 +23,6 @@ export const useLoader = () => {
 export const LoaderProvider = ({ children }: PageProps) => {
     const [isLoading, setIsLoading] = useState(false);
 
-    console.log('context isLoading', isLoading);
-
     return (
         <LoaderContext.Provider value={{ isLoading, setIsLoading }}>
             {children}
